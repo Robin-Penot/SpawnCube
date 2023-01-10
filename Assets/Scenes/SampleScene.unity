@@ -156,7 +156,8 @@ MonoBehaviour:
   Object: {fileID: 6142687734528769295, guid: 762ee95e2bf2a2c478c22e93423b4cb3, type: 3}
   radius: 4.5
   SpawnSpeed: 1
-  circleSpeed: -10
+  circleSpeed: -30
+  maxObjects: 5
 --- !u!4 &470677301
 Transform:
   m_ObjectHideFlags: 0
@@ -293,6 +294,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -367,3 +369,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ae4be5c3fbcdf4d8c5bbe7fd1cbd42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
